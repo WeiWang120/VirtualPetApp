@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38B17001E4802910044302D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B16FF1E4802910044302D /* AppDelegate.swift */; };
+		C38B17021E4802910044302D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B17011E4802910044302D /* ViewController.swift */; };
+		C38B17051E4802910044302D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38B17031E4802910044302D /* Main.storyboard */; };
+		C38B17071E4802910044302D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38B17061E4802910044302D /* Assets.xcassets */; };
+		C38B170A1E4802910044302D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38B17081E4802910044302D /* LaunchScreen.storyboard */; };
+		C38B17151E4802910044302D /* VirtualPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B17141E4802910044302D /* VirtualPetTests.swift */; };
+		C38B17201E4802910044302D /* VirtualPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B171F1E4802910044302D /* VirtualPetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38B17111E4802910044302D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38B16F41E4802900044302D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38B16FB1E4802900044302D;
+			remoteInfo = VirtualPet;
+		};
+		C38B171C1E4802910044302D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38B16F41E4802900044302D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38B16FB1E4802900044302D;
+			remoteInfo = VirtualPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C38B16FC1E4802910044302D /* VirtualPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38B16FF1E4802910044302D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C38B17011E4802910044302D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C38B17041E4802910044302D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38B17061E4802910044302D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C38B17091E4802910044302D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C38B170B1E4802910044302D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38B17101E4802910044302D /* VirtualPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38B17141E4802910044302D /* VirtualPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetTests.swift; sourceTree = "<group>"; };
+		C38B17161E4802910044302D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38B171B1E4802910044302D /* VirtualPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38B171F1E4802910044302D /* VirtualPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetUITests.swift; sourceTree = "<group>"; };
+		C38B17211E4802910044302D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38B16F91E4802900044302D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B170D1E4802910044302D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B17181E4802910044302D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38B16F31E4802900044302D = {
+			isa = PBXGroup;
+			children = (
+				C38B16FE1E4802910044302D /* VirtualPet */,
+				C38B17131E4802910044302D /* VirtualPetTests */,
+				C38B171E1E4802910044302D /* VirtualPetUITests */,
+				C38B16FD1E4802910044302D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38B16FD1E4802910044302D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38B16FC1E4802910044302D /* VirtualPet.app */,
+				C38B17101E4802910044302D /* VirtualPetTests.xctest */,
+				C38B171B1E4802910044302D /* VirtualPetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38B16FE1E4802910044302D /* VirtualPet */ = {
+			isa = PBXGroup;
+			children = (
+				C38B16FF1E4802910044302D /* AppDelegate.swift */,
+				C38B17011E4802910044302D /* ViewController.swift */,
+				C38B17031E4802910044302D /* Main.storyboard */,
+				C38B17061E4802910044302D /* Assets.xcassets */,
+				C38B17081E4802910044302D /* LaunchScreen.storyboard */,
+				C38B170B1E4802910044302D /* Info.plist */,
+			);
+			path = VirtualPet;
+			sourceTree = "<group>";
+		};
+		C38B17131E4802910044302D /* VirtualPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38B17141E4802910044302D /* VirtualPetTests.swift */,
+				C38B17161E4802910044302D /* Info.plist */,
+			);
+			path = VirtualPetTests;
+			sourceTree = "<group>";
+		};
+		C38B171E1E4802910044302D /* VirtualPetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C38B171F1E4802910044302D /* VirtualPetUITests.swift */,
+				C38B17211E4802910044302D /* Info.plist */,
+			);
+			path = VirtualPetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38B16FB1E4802900044302D /* VirtualPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B17241E4802910044302D /* Build configuration list for PBXNativeTarget "VirtualPet" */;
+			buildPhases = (
+				C38B16F81E4802900044302D /* Sources */,
+				C38B16F91E4802900044302D /* Frameworks */,
+				C38B16FA1E4802900044302D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualPet;
+			productName = VirtualPet;
+			productReference = C38B16FC1E4802910044302D /* VirtualPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38B170F1E4802910044302D /* VirtualPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B17271E4802910044302D /* Build configuration list for PBXNativeTarget "VirtualPetTests" */;
+			buildPhases = (
+				C38B170C1E4802910044302D /* Sources */,
+				C38B170D1E4802910044302D /* Frameworks */,
+				C38B170E1E4802910044302D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38B17121E4802910044302D /* PBXTargetDependency */,
+			);
+			name = VirtualPetTests;
+			productName = VirtualPetTests;
+			productReference = C38B17101E4802910044302D /* VirtualPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C38B171A1E4802910044302D /* VirtualPetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B172A1E4802910044302D /* Build configuration list for PBXNativeTarget "VirtualPetUITests" */;
+			buildPhases = (
+				C38B17171E4802910044302D /* Sources */,
+				C38B17181E4802910044302D /* Frameworks */,
+				C38B17191E4802910044302D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38B171D1E4802910044302D /* PBXTargetDependency */,
+			);
+			name = VirtualPetUITests;
+			productName = VirtualPetUITests;
+			productReference = C38B171B1E4802910044302D /* VirtualPetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38B16F41E4802900044302D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王巍";
+				TargetAttributes = {
+					C38B16FB1E4802900044302D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C38B170F1E4802910044302D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C38B16FB1E4802900044302D;
+					};
+					C38B171A1E4802910044302D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C38B16FB1E4802900044302D;
+					};
+				};
+			};
+			buildConfigurationList = C38B16F71E4802900044302D /* Build configuration list for PBXProject "VirtualPet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38B16F31E4802900044302D;
+			productRefGroup = C38B16FD1E4802910044302D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38B16FB1E4802900044302D /* VirtualPet */,
+				C38B170F1E4802910044302D /* VirtualPetTests */,
+				C38B171A1E4802910044302D /* VirtualPetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38B16FA1E4802900044302D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B170A1E4802910044302D /* LaunchScreen.storyboard in Resources */,
+				C38B17071E4802910044302D /* Assets.xcassets in Resources */,
+				C38B17051E4802910044302D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B170E1E4802910044302D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B17191E4802910044302D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38B16F81E4802900044302D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B17021E4802910044302D /* ViewController.swift in Sources */,
+				C38B17001E4802910044302D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B170C1E4802910044302D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B17151E4802910044302D /* VirtualPetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B17171E4802910044302D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B17201E4802910044302D /* VirtualPetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38B17121E4802910044302D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38B16FB1E4802900044302D /* VirtualPet */;
+			targetProxy = C38B17111E4802910044302D /* PBXContainerItemProxy */;
+		};
+		C38B171D1E4802910044302D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38B16FB1E4802900044302D /* VirtualPet */;
+			targetProxy = C38B171C1E4802910044302D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38B17031E4802910044302D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38B17041E4802910044302D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38B17081E4802910044302D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38B17091E4802910044302D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38B17221E4802910044302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38B17231E4802910044302D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38B17251E4802910044302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangwei.VirtualPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C38B17261E4802910044302D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangwei.VirtualPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C38B17281E4802910044302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VirtualPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangwei.VirtualPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualPet.app/VirtualPet";
+			};
+			name = Debug;
+		};
+		C38B17291E4802910044302D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VirtualPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangwei.VirtualPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualPet.app/VirtualPet";
+			};
+			name = Release;
+		};
+		C38B172B1E4802910044302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VirtualPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangwei.VirtualPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VirtualPet;
+			};
+			name = Debug;
+		};
+		C38B172C1E4802910044302D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VirtualPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangwei.VirtualPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VirtualPet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38B16F71E4802900044302D /* Build configuration list for PBXProject "VirtualPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B17221E4802910044302D /* Debug */,
+				C38B17231E4802910044302D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38B17241E4802910044302D /* Build configuration list for PBXNativeTarget "VirtualPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B17251E4802910044302D /* Debug */,
+				C38B17261E4802910044302D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C38B17271E4802910044302D /* Build configuration list for PBXNativeTarget "VirtualPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B17281E4802910044302D /* Debug */,
+				C38B17291E4802910044302D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C38B172A1E4802910044302D /* Build configuration list for PBXNativeTarget "VirtualPetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B172B1E4802910044302D /* Debug */,
+				C38B172C1E4802910044302D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38B16F41E4802900044302D /* Project object */;
+}
