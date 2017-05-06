@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>PetIMessage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>PetWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>VirtualPet.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C30BB3471E870F5700AF7E60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C38B16FB1E4802900044302D</key>
 		<dict>
 			<key>primary</key>
@@ -23,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>C38B171A1E4802910044302D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3FC192F1E86E5690043F8F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
